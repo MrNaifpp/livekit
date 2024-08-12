@@ -1,0 +1,13 @@
+# LiveKit Flutter Example
+
+This app implements a video room using LiveKit's Flutter SDK. Designed to run for iOS, Android, Web, Mac, and Windows.
+
+## Quickstart
+
+Run example:
+
+```bash
+flutter pub get
+# Due to the inconvenience of typing on mobile devices, 
+# you can autofill URL and TOKEN for first run in debug mode.
+flutter run --dart-define=URL=ws://172.20.10.5:7880 --dart-define=TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6IiIsIm5hbWUiOiJuYWlmIiwidmlkZW8iOnsicm9vbUNyZWF0ZSI6dHJ1ZSwicm9vbUxpc3QiOmZhbHNlLCJyb29tUmVjb3JkIjpmYWxzZSwicm9vbUFkbWluIjpmYWxzZSwicm9vbUpvaW4iOnRydWUsInJvb20iOiJteS1yb29tIiwiY2FuUHVibGlzaCI6dHJ1ZSwiY2FuU3Vic2NyaWJlIjp0cnVlLCJjYW5QdWJsaXNoRGF0YSI6dHJ1ZSwiY2FuUHVibGlzaFNvdXJjZXMiOltdLCJjYW5VcGRhdGVPd25NZXRhZGF0YSI6ZmFsc2UsImluZ3Jlc3NBZG1pbiI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsInJlY29yZGVyIjpmYWxzZSwiYWdlbnQiOmZhbHNlfSwibWV0YWRhdGEiOiIiLCJzaGEyNTYiOiIiLCJzdWIiOiJuYWlmIiwiaXNzIjoiZGV2a2V5IiwibmJmIjoxNzE2NDYwMTM3LCJleHAiOjE3MTY1NDY1Mzd9._sep6QOQKnu_1yBeSmJtyK0RBwXxKAyH2yHsIY8WUTA
